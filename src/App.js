@@ -15,7 +15,7 @@ function App() {
 
   const handleSearch =()=>{
     const wordMeaning = dictionary.find((ele)=>ele.word.toLocaleLowerCase()===search.toLocaleLowerCase())
-    const foundMeaning = wordMeaning ? wordMeaning.meaning : "Word not found in dictionary."
+    const foundMeaning = wordMeaning ? wordMeaning.meaning : "Word not found in the dictionary."
     setMeaning(foundMeaning)
   }
 
